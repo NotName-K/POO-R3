@@ -95,7 +95,7 @@ classDiagram
         +clc_precio() float
     }
 ```
-#### Order 
+#### Order y orden del cliente
 ```python
 class Order:
     def __init__(self):
