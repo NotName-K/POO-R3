@@ -6,7 +6,6 @@ Se aborda a traves de clases y herencias de esta el funcionamiento de un restaur
 ### Diagrama UML
 ```mermaid
 classDiagram
-    direction TB
 
     class Order {
         -List~MenuItem~ items
@@ -61,16 +60,16 @@ classDiagram
         +cambiar_termino(nuevo: String) void
     }
 
-   
-    Order "1" --> "*" MenuItem
-    Bebidas --|> MenuItem
-    Desayunos --|> MenuItem
-    Entradas --|> MenuItem
-    Infantil --|> MenuItem
-    Vegetarianos --|> MenuItem
-    Pescados --|> MenuItem
-    Sopas --|> MenuItem
-    Carnes --|> MenuItem
+     Order --> "*" MenuItem
+    MenuItem <|-- Bebidas
+    MenuItem <|-- Desayunos
+    MenuItem <|-- Entradas
+    MenuItem <|-- Infantil
+    MenuItem <|-- Vegetarianos
+    MenuItem <|-- Pescados
+    MenuItem <|-- Sopas
+    MenuItem <|-- Carnes
+
 ```
 ### Estructura del codigo
 #### Menú Item
