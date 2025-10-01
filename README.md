@@ -1,5 +1,8 @@
 # POO-R3
+## Logo del grupo
+![Logo](https://github.com/NotName-K/POO-R2/blob/main/Screenshot%202025-09-23%20110719.png?raw=true)
 ## Restaurante
+Se aborda a traves de clases y herencias de esta el funcionamiento de un restaurante, con menus de comidas y ordenes de clientes.
 ### Diagrama UML
 ```mermaid
 classDiagram
