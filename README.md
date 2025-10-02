@@ -60,7 +60,7 @@ classDiagram
         +cambiar_termino(nuevo: String) void
     }
 
-     Order --> "*" MenuItem
+     Order *-- MenuItem
     MenuItem <|-- Bebidas
     MenuItem <|-- Desayunos
     MenuItem <|-- Entradas
